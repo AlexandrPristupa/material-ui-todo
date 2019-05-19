@@ -1,6 +1,7 @@
 @import '~sanitize.css';
 
 body {
+  display: flex;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -8,39 +9,34 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  .vending-machine{
+  .root {
     display: flex;
+    width: 100%;
   }
 
-  .product-list {
-    padding: 3px;
+  .aside {
+    width: 20%;
+    height: 100vh;
+    background: teal;
+  }
 
-    .product {
-      width: 100px;
-      height: 50px;
-      border: 1px solid #000;
-      margin: 3px;
-      padding: 3px;
-      text-align: center;
-      cursor: pointer;
-
-      &-active {
-        border: 1px solid red;
-      }
+  .Todos {
+    width: 80%;
+    display: flex;
+    
+    &-container {
+      width: 50%;
+      margin: 10px;
+      padding: 20px;
     }
   }
 
-  .controls {
-    width: 100px;
-    margin: 3px;
-
-    input {
-      width: 50px;
-      margin-top: 3px;
-    }
-
-    button {
-      cursor: pointer;
-    }
+  .Comments-container {
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
   }
+
+  
+
 }

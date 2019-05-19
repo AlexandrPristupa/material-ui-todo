@@ -4,13 +4,16 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.3",
+    "lodash": "^4.17.11",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
     "react-scripts": "3.0.1",
     "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
     "redux-i18n": "^1.5.18",
-    "redux-persist": "^5.10.0"
+    "redux-persist": "^5.10.0",
+    "sanitize.css": "^9.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

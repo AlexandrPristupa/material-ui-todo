@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux';
+import { i18nState } from 'redux-i18n';
 
-import reducer from '../reducers/reducer';
+import rootReducer from '../reducers/reducer';
 
 const reducers = combineReducers({
-  reducer
+  rootReducer,
+  i18nState
 });
 
 export default reducers;
